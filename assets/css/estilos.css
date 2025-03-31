@@ -14,10 +14,18 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/Logo_gotharo.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
+  background-size: contain;
+  background-position: 10% 50%;
+  background-color: #373a3c;
+  background-size: 400px;
+  
+}
+.bg-parrafo {
+  background-color: rgba(55, 58, 60, 0.8); /* Color de fondo gris claro */
+  padding: 10px; /* Opcional: Añade espacio interno */
+  
 }
 
 /* Mis trabajos */
@@ -46,3 +54,7 @@ body {
   }
 
 }
+ .color {
+  color: black;
+  
+ }
